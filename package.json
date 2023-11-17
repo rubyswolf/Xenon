@@ -1,0 +1,29 @@
+{
+  "name": "Xenon",
+  "version": "1.0.0",
+  "description": "A powerful modular graphical IDE",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "keywords": [
+    "notepad"
+  ],
+  "author": "Dart",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^27.0.2",
+    "electron-builder": "^24.6.4"
+  },
+  "build": {
+    "appId": "com.ion.Xenon",
+    "productName": "Xenon",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "favicon.png"
+    }
+  }
+}
